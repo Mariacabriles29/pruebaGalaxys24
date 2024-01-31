@@ -1,0 +1,74 @@
+body > main > div > div > div.p_wrapper{
+    /* background-image: url(../../../images/football/soccer.jpg); */
+}
+
+#rf--step1 > div > div.rf--inputs > div.form-labels.fl-btn > button{
+    height: 48px !important;
+    font-size: 2.1em;
+}
+
+#lp-pom-form-11 > div:nth-child(5) > div > div.segun{
+    /* position: absolute; */
+}
+
+#lp-pom-form-11 > div:nth-child(5) > div > div.segun{
+    width: 100%;
+}
+
+#showPW, #err_trj{
+    position: relative;
+}
+
+#showPW{
+    top:-39px !important;
+    left: 406px;
+}
+
+#err_trj{
+    top: -22px;
+}
+
+#continuar {
+    height: 36px;
+    font-size: 1.7em;
+}
+
+.lang-text{
+    text-transform: uppercase !important;
+}
+
+@media only screen and (max-width: 767px) {
+    /*
+    #lp-pom-form-11 > div:nth-child(5) > div > div.segun{
+        width: 87.5%;
+    }
+    */
+
+    #showPW {
+        left: 211px;
+    }
+}
+
+.transparentar {
+    background-color: transparent !important;
+}
+
+@media (max-width: 575px) {
+    #cvvImg{
+        left: 113px;
+        top: -84px !important;
+    }
+}
+
+.rf--wrapper{
+    position: relative;
+    width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paso2 label {
+    font-size: 15px !important;
+}

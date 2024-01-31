@@ -1,0 +1,22 @@
+#email:focus {
+    background-color: #010102 !important;
+}
+
+#lp-pom-form-11 > div:nth-child(4), #lp-pom-form-11 > div:nth-child(5){
+    margin-bottom: 30px;
+}
+
+.paso2 input:focus, .paso2 select:focus{
+    color: #495057 !important;
+}
+
+.paso1 input {
+    background-color: black !important;
+}
+
+@media (max-width: 575px){
+    #cvvImg {
+        left: 143px;
+        top: -92px;
+    }
+}

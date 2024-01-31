@@ -1,0 +1,7 @@
+/* siempre se descolocaba la imagenm de la tarjeta en esta mq */
+@media (min-width: 479px) and (max-width: 575px) {
+    #cvvImg {
+        left: 150px;
+        top: -88px;
+    }
+}

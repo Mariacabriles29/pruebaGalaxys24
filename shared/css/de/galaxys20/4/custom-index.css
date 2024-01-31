@@ -1,0 +1,665 @@
+p a {
+   color: inherit;
+}
+
+select{
+    -webkit-appearance: menulist;
+}
+
+.paso0 {
+        display: none;
+        position: absolute;
+        text-align: center;
+        width: 95%;
+        left: 90px;
+        top: 294px;
+        z-index: 999;
+}
+
+#loading{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media(min-width:1200px) {
+    .paso0 {
+        width: 77%;
+    }
+}
+
+.pay1 {
+    height: 570px !important;
+    border: 1px solid rgb(206, 212, 218);
+}
+
+.form-control {
+    font-size: 16px !important;
+}
+
+#lp-pom-form-896>div.row.paso2.pay1 {
+    border: 1px solid rgb(206, 212, 218) !important;
+}
+
+/* from index inline */
+.top_terms {
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 3px 5px 3px;
+    font-weight: 400;
+    color: #b7b7b7;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+    background-color: #ffffff;
+
+}
+
+.badge {
+    animation-duration: 3s;
+    animation-delay: 1s;
+    /*animation-iteration-count: infinite;*/
+}
+
+@media(max-width: 799px) {
+
+    .top_terms {
+        font-size: 9px;
+        width: 100%;
+        text-align: center;
+        padding: 3px 5px 3px;
+        font-weight: 300;
+        letter-spacing: -0.01em;
+        line-height: 1.2;
+    }
+}
+
+@media(max-width:530px) {
+
+    .top_terms {
+        font-size: 8px;
+        padding: 2px 3px 2px;
+    }
+}
+
+#features {
+    padding-bottom: 0px;
+}
+
+
+#divaceptar {
+    color: black;
+    font-weight: bold;
+
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* .has-success {
+    font-size: 13px;
+    margin: 2.5% 7.5%;
+} */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.moto-logo {
+    max-width: 430px;
+}
+
+.no-p {
+    padding: 0;
+}
+
+.phone_show {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 1.666rem;
+}
+
+#ts-hero .owl-prev,
+#ts-hero .owl-next {
+    background-color: transparent;
+    border: .125rem solid rgba(255, 255, 255, .8);
+    visibility: hidden;
+}
+
+#ts-hero {
+    color: #000;
+}
+
+
+.btn-primary {
+    background-color: #1428a0;
+    border-color: #1428a0;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0c1b74;
+    border-color: #1428a0;
+    color: #fff;
+}
+
+
+.foo-t {
+    margin-top: 50px;
+    display: block;
+    float: left;
+    width: 100%;
+    color: #afafaf;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.overform {
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.overform span {
+    color: #353489;
+    font-weight: 600;
+}
+
+.whatacolor {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.overform_p {
+    font-size: 14px;
+    color: #0b0b0b;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.introd {
+    margin-top: 20px;
+}
+
+.tag {
+    color: #FFF;
+    border-radius: 100%;
+    height: 234px;
+    width: 234px;
+    text-align: center;
+    top: 41.5%;
+    left: -3%;
+    position: absolute;
+    background: rgba(0, 179, 227, 0.9);
+    background: url(badge_bg1.png) no-repeat center;
+    background-size: cover;
+    transform: rotate(-0deg);
+    margin: -20px 0 0 -20px;
+    transform: skewY(-1.7deg);
+    padding: 35px 35px 0px 35px;
+    z-index: 2;
+}
+
+.tag span {
+    margin-top: 13%;
+    display: block;
+    line-height: 1.1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    max-width: 100%;
+}
+
+.tag span.price {
+    font-size: 74px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    margin: 1%;
+    line-height: 1;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.tag span.price span {
+    display: inline;
+    margin-left: 0.1em;
+    font-size: 0.6em;
+}
+
+sup {
+    vertical-align: baseline !important;
+    font-size: inherit;
+    top: 0px;
+    left: 0px;
+}
+
+.overform span {
+    /*font-weight: 400;*/
+}
+
+/* ============ PRODUCT SLIDER ============ */
+
+.colors {
+    width: 180px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+
+.color {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    display: block;
+}
+
+.one_color {
+    display: inline-block;
+}
+
+.color-2 {
+    background: rgb(101, 101, 101);
+    background: linear-gradient(180deg, rgba(101, 101, 101, 1) 25%, rgba(78, 78, 78, 1) 63%, rgba(110, 117, 117, 1) 100%);
+}
+
+.color-2:hover {
+    background: linear-gradient(0deg, rgba(101, 101, 101, 1) 25%, rgba(78, 78, 78, 1) 63%, rgba(110, 117, 117, 1) 100%);
+}
+
+.color-3 {
+    background: rgb(223, 172, 187);
+    background: linear-gradient(0deg, rgba(223, 172, 187, 1) 25%, rgba(249, 214, 221, 1) 63%, rgba(249, 214, 221, 1) 100%);
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.color-3:hover {
+    background: linear-gradient(180deg, rgba(223, 172, 187, 1) 25%, rgba(249, 214, 221, 1) 63%, rgba(249, 214, 221, 1) 100%);
+}
+
+.color-4 {
+    background: rgb(190, 225, 251);
+    background: linear-gradient(180deg, rgba(190, 225, 251, 1) 25%, rgba(224, 247, 255, 1) 63%, rgba(190, 225, 251, 1) 100%);
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.color-4:hover {
+    background: linear-gradient(0deg, rgba(190, 225, 251, 1) 25%, rgba(224, 247, 255, 1) 63%, rgba(190, 225, 251, 1) 100%);
+}
+
+
+.one_color-2,
+.one_color-3,
+.one_color-4,
+.one_color-4 {
+    clear: both;
+}
+
+.one_color .active {
+    border: solid 4px #46459d;
+}
+
+.btn-lg {
+    min-width: 250px;
+    max-width: 329px;
+    margin-top: 10px;
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #1428a0 !important;
+    border-color: #1428a0 !important;
+    color: #fff;
+}
+
+.big_picture {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+/* === BX Slider ==== */
+.bx-wrapper .bx-viewport {
+    border: 0 none;
+    left: 0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    background: transparent;
+}
+
+bx-controls {
+    display: none;
+}
+
+.bx-wrapper {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.phone {
+    display: none;
+}
+
+.phone.active {
+    display: block;
+}
+
+@media (min-width: 1200px) {
+    #datos {
+        width: 61%;
+    }
+
+}
+
+
+
+/* ============ END OF PRODUCT SLIDER ========== */
+
+@media (min-width: 998px) {
+    #ts-hero {
+        min-height: 10% !important;
+    }
+}
+
+@media (max-width: 998px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .moto-logo {
+        max-width: 430px;
+        width: 80%;
+    }
+
+    .tag {
+        top: 39.5%;
+        height: 200px;
+        width: 200px;
+    }
+
+    .tag span {
+        font-size: 21px;
+    }
+
+    .tag span.price {
+        font-size: 64px;
+    }
+
+    #ts-hero {
+        max-height: 739px !important;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .phone_show {
+        display: block !important;
+        position: relative;
+        max-width: 80%;
+        margin: 50px auto 0;
+    }
+
+    #ts-hero {
+        min-height: unset !important;
+        height: auto !important
+    }
+
+    .pr-0,
+    .px-0 {
+        padding-right: 15px !important;
+    }
+
+    .ts-form {
+        margin-bottom: 125px;
+    }
+
+    .matyu {
+        max-width: 80%;
+        margin: 0 auto 0;
+    }
+
+    #ts-hero {
+        max-height: unset !important;
+    }
+
+    .tag {
+        top: 39.5%;
+        height: 180px;
+        width: 180px;
+    }
+
+    .tag span {
+        margin-top: 7%;
+    }
+}
+
+/* ---- EXTRAS ---- */
+
+:-webkit-input-placeholder {
+    color: rgb(93, 93, 93);
+    
+}
+
+::-webkit-input-placeholder {
+    color: rgb(93, 93, 93);
+    
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgb(93, 93, 93);
+    
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+     color: rgb(93, 93, 93);
+    
+}
+
+:-ms-input-placeholder {
+    color: rgb(93, 93, 93);
+    
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+/* FF 4-18 */
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+/* FF 19+ */
+
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+/* IE 10+ */
+
+.error {
+    color: #d40025;
+    border: 1px solid #ff0026;
+    -webkit-text-fill-color: #d40025 !important;
+    -webkit-box-shadow: 0 0 0px 1000px #FFBABA inset;
+    box-shadow: 0 0 0 0.125rem rgb(230, 26, 26);
+}
+
+.qtip-default {
+    color: #e6e6e6;
+    border: 1px solid #b70404;
+    font-weight: 600;
+    background-color: #b70404;
+    letter-spacing: 0;
+    font-size: 11px;
+}
+
+
+.epro-s {
+    clear: both;
+    display: block;
+    margin: 0px auto;
+    padding-top: 15px;
+    width: 90px;
+    height: auto;
+    float: none;
+}
+
+.check-terms {
+    float: left;
+    text-align: center;
+    width: 100%;
+    line-height: 1.5;
+    color: rgb(99, 99, 99);
+    font-size: 12px;
+}
+
+.check-terms {
+    float: left;
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    color: rgb(99, 99, 99);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.check-terms a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+
+/*BELOW is going to be in all campaigns - can be modified a little if needed eg color of overlay*/
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(64, 64, 64, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 25;
+    display: none;
+}
+
+.overlay.show {
+    display: block;
+}
+
+.modal {
+    border: 1px solid #999999;
+    color: #999999;
+    position: fixed;
+    left: 50%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    z-index: 25;
+    background-color: #fff;
+    display: none;
+}
+
+.modal p,
+.modal span {
+    color: #999999;
+}
+
+.modal .close {
+    float: right;
+    border: 0;
+    font-size: 23px;
+    background-color: transparent;
+}
+
+.modal .modal-footer a {
+    float: right;
+    margin-right: 10px;
+}
+
+/*Below is the styling for the validator*/
+.qtip-custom {
+    background-color: #fff;
+    border-color: #D8000C;
+    color: #D8000C;
+}
+
+input[type="text"].error,
+input[type="email"].error,
+input[type="tel"].error,
+select.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    /*    background-color:rgba(247, 91, 91, 0.1);*/
+    border: 1px solid #D8000C;
+    -webkit-text-fill-color: red !important;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(247, 91, 91, 0.1) inset;
+}
+
+/*-----------------Parsley form validation-----------------------*/
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+    color: #468847;
+    background-color: #DFF0D8;
+    border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+    color: #B94A48;
+    background-color: #F2DEDE;
+    border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    opacity: 0;
+    font-size: 0;
+    display: none !important;
+}
+
+/*---------------------------Credit card warning message styles-------------------------------*/
+
+#warning-modal {
+    position: fixed;
+    z-index: 1000;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.warning-modal-inner {
+    background-color: #fff;
+    color: #000;
+    width: 450px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ffe078;
+}

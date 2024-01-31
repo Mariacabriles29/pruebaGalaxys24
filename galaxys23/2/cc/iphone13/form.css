@@ -1,0 +1,114 @@
+
+form .form-group select {
+    min-height: 40px;
+}
+
+div.iti.iti--allow-dropdown {
+    /*position: absolute;*/
+    width: 100%;
+}
+
+#phone {
+    padding-left: 50px !important
+}
+
+.iti__country-list .iti__country.iti__standard .iti__country-name {
+    color: #999;
+}
+
+.form-group .form-check {
+    display: inline-block;
+    height: 40px !important;
+}
+.form-group .form-check input[type="checkbox"], .form-group .form-check input[type="radio"] {
+    width: 15px !important;
+    height: 15px !important;
+    margin-top: 4px !important;
+    margin-left: -12.5px !important;
+}
+
+.form-group .form-check-label {
+    margin: 0px 5px;
+}
+
+.form-control.validation-error, #phone.validation-error, .form-group.validation-error {
+    border: 1px solid #cc0000 !important;
+}
+
+.form-group.validation-error {
+    border-radius: 5px;
+}
+
+label.error-message {
+    width: 100%;
+    display: none;
+    margin: 0px 0 15px 0;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+#signup-form div[id^="_"].form-group, #payment-form div[id^="_"].form-group {
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+}
+
+label.error-message.validation-error {
+    color: var(--red);
+}
+
+label.error-message span {
+    margin-left: 5px;
+}
+
+.month-year-selectors {
+    display: flex;
+}
+
+#_cardexpirydateseparatedmonthyearselector-month,
+#_cardexpirydateseparatedmonthyearselector-year {
+    width: 65px;
+    margin-right: 5px;
+}
+
+label[for=cardexpirydateseparatedmonthyearselector-month],
+label[for=cardexpirydateseparatedmonthyearselector-year] {
+    width: max-content;
+}
+
+#signupLoading {
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    opacity: 0.8;
+    text-align: center;
+    display: none;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    top:40%;
+    left: calc(50% - 60px);
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

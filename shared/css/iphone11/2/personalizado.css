@@ -1,0 +1,34 @@
+.paso0 {
+    left: unset;
+}
+
+.paso0 > img#loading {
+    position: relative;
+    left: unset !important;
+    top: unset !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/*mg titl*/
+@media (min-width: 48em){
+    .stage__title {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/* caracs techs*/
+body > div > main > div > div.stage__form.mx-auto.mxw-80 > div > div:nth-child(1) > div > div.sm-col.sm-col-5.hidden-xs > div.price.hidden-xs{
+    margin-bottom: 18px;
+}
+
+/*img movil*/
+#device > div.js-sweep-image-container.relative.flex.items-center.justify-center.iphone-img{
+    top: -25px;
+}
+/* tmp */
+.countdown__circles{
+    margin-top: 0px !important;
+}

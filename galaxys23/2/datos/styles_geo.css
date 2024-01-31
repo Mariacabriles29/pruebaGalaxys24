@@ -1,0 +1,169 @@
+
+/* AR */
+body.lang-ar label[for="age"] {
+    padding-right: 6px;
+}
+
+body.lang-ar #email::placeholder {
+    text-align: right;
+    padding-right: 10px;
+}
+
+body.lang-ar .year-expiration,
+body.lang-ar .month-expiration {
+    float: right;
+    padding-right: 5px;
+}
+
+body.lang-ar .tl_offerExpires,
+body.lang-ar .tl_seconds,
+body.lang-ar .tl_minutes,
+body.lang-ar .main-subtitle,
+body.lang-ar .text-big,
+body.lang-ar .ultra-text {
+    text-align: right;
+}
+
+body.lang-ar .cvv {
+    align-self: flex-end;
+}
+
+body.lang-ar label[for="age"] {
+    padding-right: 6px;
+}
+
+body.lang-ar #email::placeholder {
+    text-align: right;
+    padding-right: 10px;
+}
+
+body.lang-ar .cvv {
+    align-self: flex-end;
+}
+
+body.lang-ar label {
+    text-align: right;
+}
+
+.lang-ar .section-main {
+    text-align: right;
+}
+
+.lang-ar .first-span {
+    text-align: right;
+}
+
+.lang-ar #email {
+    left: 25px;
+}
+
+.lang-ar .agreement {
+    flex-direction: row-reverse;
+    max-width: unset;
+}
+
+.lang-ar label[for="age"] {
+    padding-right: 6px;
+}
+
+.lang-ar #email::placeholder {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.lang-ar .year-expiration,
+.lang-ar .month-expiration {
+    float: right;
+    padding-right: 5px;
+}
+
+.lang-ar .cvv {
+    align-self: flex-end;
+}
+
+.lang-ar .text-small,
+.lang-ar .small-title,
+.lang-ar .section-specs .row {
+    text-align: right;
+}
+
+.lang-ar .main-text {
+    margin-left: 15%;
+    text-align: right;
+}
+
+body.lang-ar .main-subtext {
+    width: 100%;
+}
+
+body.lang-ar .phones-img,
+body.lang-ar .display-img {
+    margin-left: auto;
+}
+/* AR //*/
+
+/* Other */
+body.lang-mk label,
+body.lang-mk label strong {
+    font-size: 10px;
+}
+
+body.lang-nl .text-small-left,
+body.lang-fr .text-small-left,
+body.lang-es .text-small-left,
+body.lang-it .text-small-left,
+body.lang-mk .text-small-left {
+    margin-top: 95px;
+}
+
+body.lang-nl .text-small-right,
+body.lang-fr .text-small-right,
+body.lang-es .text-small-right,
+body.lang-it .text-small-right,
+body.lang-mk .text-small-right,
+body.lang-et .text-small-right {
+    margin-top: 370px;
+}
+/* Other //*/
+
+@media (max-width: 1690px){
+    body.lang-fr .ultra-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    body.lang-nl .text-small-left,
+    body.lang-es .text-small-left,
+    body.lang-it .text-small-left,
+    body.lang-mk .text-small-left,
+    body.lang-et .text-small-left {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 992px) {
+    body.lang-nl .text-small-right,
+    body.lang-fr .text-small-right,
+    body.lang-es .text-small-right,
+    body.lang-it .text-small-right,
+    body.lang-mk .text-small-right,
+    body.lang-et .text-small-right {
+        margin-top: 195px;
+    }
+}
+
+@media (max-width: 768px) {
+    body.lang-nl .text-small-right,
+    body.lang-fr .text-small-right,
+    body.lang-es .text-small-right,
+    body.lang-it .text-small-right,
+    body.lang-mk .text-small-right,
+    body.lang-et .text-small-right {
+        margin-top: 30px;
+    }
+
+    body.lang-mk .color-text {
+        font-size: 8px;
+    }
+}

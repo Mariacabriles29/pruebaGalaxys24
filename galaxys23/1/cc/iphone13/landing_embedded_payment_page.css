@@ -1,0 +1,15 @@
+
+iframe#embeddedPaymentPageIframe {
+    width: 100%;
+    height: 100%;
+}
+
+#embeddedPaymentPageIframe.full-page {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999999;
+    background: #fff;
+}

@@ -1,0 +1,41 @@
+@media (max-width: 767.98px) and (min-width: 577px)  {
+    #colores{
+        padding-left: 27%;
+    }
+}
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ 
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    body > div.content > div > div > div.content_5.content-block {
+        background-position: -20px 730px;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 991.98px){
+    body > div.content > div > div > div.content_5.content-block {
+        background-position: -50px 430px;
+    }
+}
+
+body > div.legal-block, body > footer, #asterisco{
+    direction: ltr !important;
+}
+
+/* flag_icons */
+#dropdownMenuButton > img {
+    width: 16px;
+    height: 12px;
+    vertical-align: baseline !important;
+}
